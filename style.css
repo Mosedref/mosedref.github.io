@@ -1,5 +1,7 @@
 
 
+
+
 body {
   background: grey ;
   color: black;
@@ -10,7 +12,7 @@ body {
 
 
 .content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   background: white;
   padding: 10px;
@@ -52,11 +54,6 @@ h1{
 	text-align:center;
 }
 
-p{
-	text-align:center;
-}
-
-
 
 
 .topnav {
@@ -82,15 +79,15 @@ p{
 
 section{
 	padding: 40px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 section img{
 	height: 400px;
 	display: block;
     margin-left: auto;
-    margin-right: auto;
-    
-	
+    margin-right: auto;	
 }
 
 

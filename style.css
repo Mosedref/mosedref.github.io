@@ -42,10 +42,7 @@ header li a {
     text-decoration: none;
 }
 
-header ul {
-	float: right;
-	
-}
+
 
 header * {
     display: inline;
@@ -95,5 +92,7 @@ section img{
     
 	
 }
+
+
 
 

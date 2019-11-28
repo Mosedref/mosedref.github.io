@@ -1,9 +1,9 @@
 /*Main Backgroud*/
 
 body {
-  background: grey ;
+  background: lightgrey ;
   font-family: sans-serif;
-  padding: 40px;
+  padding: 20px;
 }
 
 /*Containr for all the elements*/
@@ -13,6 +13,8 @@ body {
   margin: auto;
   background: white;
   padding: 10px;
+  border-bottom: 20px black;
+  border-radius: 1em 1em; /* rounded corner! */
 
 }
 
@@ -32,7 +34,7 @@ header {
 
 /*navigation Bar menu*/
 nav {
-  float: right;	
+  float: right;		
 }
 nav ul {
   margin: auto;
@@ -64,6 +66,22 @@ nav ul li a {
 
 /*BIO ---SECTION---*/
 
+.main-section{
+     background-image: url("file:///C:/Users/e240505/Downloads/Website/mosedref.github.io-master/gradAQ.JPG");  
+     background-repeat: no-repeat; 
+     background-position: center;
+     background-size: cover;
+     box-shadow: 0 0 25px 0 grey;
+     border-bottom: 20px black;
+     border-radius: 1em 1em; /* rounded corner! */
+     color :red;
+     height: 600px;
+     overflow: hidden;
+     margin-top: 10px;
+  
+}
+
+
 section{
      overflow: hidden;   
      padding: 20px;
@@ -71,7 +89,6 @@ section{
      margin-left: auto;
      margin-right: auto;
      margin-top: 10px;
-     /*height: 600px;*/
      background-color:white;
      box-shadow: 0 0 25px 0 grey;
      border-bottom: 20px black;
@@ -79,32 +96,27 @@ section{
 }
 
 .leftBio, .rightBio{
-	  width: 50%;
-        /*height: 600px;*/
-	/*background-color:red;*/
+        height: 600px;
+	width: 50%;
 		
 }
 
 .leftBio {
 	float :left;
+	background-image: url("file:///C:/Users/e240505/Downloads/Website/mosedref.github.io-master/mose.jpg"); 
+background-repeat: no-repeat; 
+     background-position: center;
+     background-size: 90% 100%;
+    
+     
 	
 }
 
 .rightBio {
 	float :right;
-	
 }
 
  
-section img{
-     height: 300px;
-     width: 90%;
-     /*margin-left: auto;*/
-     /*margin-right: auto;*/	
-}
-
-
-
 h1{
 	text-align:center;
 }
@@ -133,6 +145,14 @@ footer img{
 	height: 20px;
 	width: 20px;
 }
+
+
+
+
+
+
+
+
 
 
 

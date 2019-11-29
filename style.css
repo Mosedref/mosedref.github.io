@@ -104,7 +104,7 @@ section{
 
 .leftBio {
 	float :left;
-	background-image: url("file:///C:/Users/e240505/Downloads/Website/mosedref.github.io-master/mose.jpg"); 
+	background-image: url("mose.jpg"); 
 background-repeat: no-repeat; 
      background-position: center;
      background-size: 90% 100%;
